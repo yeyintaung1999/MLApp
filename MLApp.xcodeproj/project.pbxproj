@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		677467F4294CD1F3002A363B /* uiComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677467F3294CD1F3002A363B /* uiComponents.swift */; };
+		6790AE0A294C555F008D6CA7 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6790AE09294C555F008D6CA7 /* ImagePicker.swift */; };
+		67A0C52C294C2EED00A31A81 /* MLAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A0C52B294C2EED00A31A81 /* MLAppApp.swift */; };
+		67A0C52E294C2EED00A31A81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A0C52D294C2EED00A31A81 /* ContentView.swift */; };
+		67A0C530294C2EEE00A31A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67A0C52F294C2EEE00A31A81 /* Assets.xcassets */; };
+		67A0C533294C2EEE00A31A81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67A0C532294C2EEE00A31A81 /* Preview Assets.xcassets */; };
+		67A0C53B294C314400A31A81 /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = 67A0C53A294C314400A31A81 /* FirebaseMLModelDownloader */; };
+		67A0C53D294C367300A31A81 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A0C53C294C367300A31A81 /* ViewModel.swift */; };
+		67A0C53F294C3B4900A31A81 /* MLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A0C53E294C3B4900A31A81 /* MLHelper.swift */; };
+		D01CC8E993E6C70EC52C8375 /* Pods_MLApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D83A0914036BD6E4547B3F /* Pods_MLApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4ABE0DC1CB3C9CCFFEA106E5 /* Pods-MLApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLApp.debug.xcconfig"; path = "Target Support Files/Pods-MLApp/Pods-MLApp.debug.xcconfig"; sourceTree = "<group>"; };
+		677467F3294CD1F3002A363B /* uiComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uiComponents.swift; sourceTree = "<group>"; };
+		6790AE09294C555F008D6CA7 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		67A0C528294C2EED00A31A81 /* MLApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A0C52B294C2EED00A31A81 /* MLAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLAppApp.swift; sourceTree = "<group>"; };
+		67A0C52D294C2EED00A31A81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		67A0C52F294C2EEE00A31A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67A0C532294C2EEE00A31A81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67A0C53C294C367300A31A81 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		67A0C53E294C3B4900A31A81 /* MLHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLHelper.swift; sourceTree = "<group>"; };
+		A1C3DAB5420D720BED2364AD /* Pods-MLApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLApp.release.xcconfig"; path = "Target Support Files/Pods-MLApp/Pods-MLApp.release.xcconfig"; sourceTree = "<group>"; };
+		F4D83A0914036BD6E4547B3F /* Pods_MLApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67A0C525294C2EED00A31A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01CC8E993E6C70EC52C8375 /* Pods_MLApp.framework in Frameworks */,
+				67A0C53B294C314400A31A81 /* FirebaseMLModelDownloader in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		677467F2294CD1DD002A363B /* uiComponents */ = {
+			isa = PBXGroup;
+			children = (
+				677467F3294CD1F3002A363B /* uiComponents.swift */,
+			);
+			path = uiComponents;
+			sourceTree = "<group>";
+		};
+		677467F6294CE1E1002A363B /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+				67A0C53C294C367300A31A81 /* ViewModel.swift */,
+			);
+			path = viewModels;
+			sourceTree = "<group>";
+		};
+		677467F7294CE1EE002A363B /* MLKitHelper */ = {
+			isa = PBXGroup;
+			children = (
+				67A0C53E294C3B4900A31A81 /* MLHelper.swift */,
+			);
+			path = MLKitHelper;
+			sourceTree = "<group>";
+		};
+		6790AE08294C554C008D6CA7 /* imagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				6790AE09294C555F008D6CA7 /* ImagePicker.swift */,
+			);
+			path = imagePicker;
+			sourceTree = "<group>";
+		};
+		67A0C51F294C2EED00A31A81 = {
+			isa = PBXGroup;
+			children = (
+				67A0C52A294C2EED00A31A81 /* MLApp */,
+				67A0C529294C2EED00A31A81 /* Products */,
+				BAB1759480B5291D3839120F /* Pods */,
+				D5050999399B84B12166D98D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		67A0C529294C2EED00A31A81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67A0C528294C2EED00A31A81 /* MLApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67A0C52A294C2EED00A31A81 /* MLApp */ = {
+			isa = PBXGroup;
+			children = (
+				677467F7294CE1EE002A363B /* MLKitHelper */,
+				677467F6294CE1E1002A363B /* viewModels */,
+				677467F2294CD1DD002A363B /* uiComponents */,
+				6790AE08294C554C008D6CA7 /* imagePicker */,
+				67A0C52B294C2EED00A31A81 /* MLAppApp.swift */,
+				67A0C52D294C2EED00A31A81 /* ContentView.swift */,
+				67A0C52F294C2EEE00A31A81 /* Assets.xcassets */,
+				67A0C531294C2EEE00A31A81 /* Preview Content */,
+			);
+			path = MLApp;
+			sourceTree = "<group>";
+		};
+		67A0C531294C2EEE00A31A81 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				67A0C532294C2EEE00A31A81 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BAB1759480B5291D3839120F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4ABE0DC1CB3C9CCFFEA106E5 /* Pods-MLApp.debug.xcconfig */,
+				A1C3DAB5420D720BED2364AD /* Pods-MLApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D5050999399B84B12166D98D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4D83A0914036BD6E4547B3F /* Pods_MLApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67A0C527294C2EED00A31A81 /* MLApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A0C536294C2EEE00A31A81 /* Build configuration list for PBXNativeTarget "MLApp" */;
+			buildPhases = (
+				68A2CA53889D25C8B1CBE6FA /* [CP] Check Pods Manifest.lock */,
+				67A0C524294C2EED00A31A81 /* Sources */,
+				67A0C525294C2EED00A31A81 /* Frameworks */,
+				67A0C526294C2EED00A31A81 /* Resources */,
+				6F7DDBF38163C78C29582A1D /* [CP] Embed Pods Frameworks */,
+				A38D5F2CD00CA4ABA751DB19 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLApp;
+			packageProductDependencies = (
+				67A0C53A294C314400A31A81 /* FirebaseMLModelDownloader */,
+			);
+			productName = MLApp;
+			productReference = 67A0C528294C2EED00A31A81 /* MLApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67A0C520294C2EED00A31A81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					67A0C527294C2EED00A31A81 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 67A0C523294C2EED00A31A81 /* Build configuration list for PBXProject "MLApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67A0C51F294C2EED00A31A81;
+			packageReferences = (
+				67A0C539294C314400A31A81 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 67A0C529294C2EED00A31A81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67A0C527294C2EED00A31A81 /* MLApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67A0C526294C2EED00A31A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A0C533294C2EEE00A31A81 /* Preview Assets.xcassets in Resources */,
+				67A0C530294C2EEE00A31A81 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68A2CA53889D25C8B1CBE6FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MLApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F7DDBF38163C78C29582A1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MLApp/Pods-MLApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MLApp/Pods-MLApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MLApp/Pods-MLApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A38D5F2CD00CA4ABA751DB19 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MLApp/Pods-MLApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MLApp/Pods-MLApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MLApp/Pods-MLApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67A0C524294C2EED00A31A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A0C52E294C2EED00A31A81 /* ContentView.swift in Sources */,
+				677467F4294CD1F3002A363B /* uiComponents.swift in Sources */,
+				67A0C53D294C367300A31A81 /* ViewModel.swift in Sources */,
+				6790AE0A294C555F008D6CA7 /* ImagePicker.swift in Sources */,
+				67A0C53F294C3B4900A31A81 /* MLHelper.swift in Sources */,
+				67A0C52C294C2EED00A31A81 /* MLAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		67A0C534294C2EEE00A31A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67A0C535294C2EEE00A31A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67A0C537294C2EEE00A31A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ABE0DC1CB3C9CCFFEA106E5 /* Pods-MLApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MLApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pcent.MLApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67A0C538294C2EEE00A31A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C3DAB5420D720BED2364AD /* Pods-MLApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MLApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pcent.MLApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67A0C523294C2EED00A31A81 /* Build configuration list for PBXProject "MLApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A0C534294C2EEE00A31A81 /* Debug */,
+				67A0C535294C2EEE00A31A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A0C536294C2EEE00A31A81 /* Build configuration list for PBXNativeTarget "MLApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A0C537294C2EEE00A31A81 /* Debug */,
+				67A0C538294C2EEE00A31A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		67A0C539294C314400A31A81 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		67A0C53A294C314400A31A81 /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 67A0C539294C314400A31A81 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMLModelDownloader;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 67A0C520294C2EED00A31A81 /* Project object */;
+}
